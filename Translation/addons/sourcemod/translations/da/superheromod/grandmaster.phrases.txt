@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"Revive"
+	{
+		"#format"		"{1:s},{2:s},{3:N},{4:N}"
+		"da"	"{1} {2} {3} anvendte kosmisk livs kraft for at genoplive {4}!"
+	}
+}

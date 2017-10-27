@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"Morphed"
+	{
+		"da"	"Du har skiftet form til en kasse!"
+	}
+	
+	"Unmorphed"
+	{
+		"da"	"Du har skiftet form til dig selv igen."
+	}
+}

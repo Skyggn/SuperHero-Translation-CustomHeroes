@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"Respawned"
+	{
+		"#format"	"{1:s},{2:s}"
+		"da"		"{1} {2} Du brugte føniksens krafter til at genoplive dig selv fra aske"
+	}
+}

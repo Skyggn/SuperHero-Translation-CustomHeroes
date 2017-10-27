@@ -1,0 +1,14 @@
+"Phrases"
+{
+	"Morphed"
+	{
+		"#format"		"{1:s}"
+		"da"	"{1} - DU LIGNER NU FJENDEN"
+	}
+	
+	"Unmorphed"
+	{
+		"#format"		"{1:s}"
+		"da"	"{1} - DU ER DIG SELV IGEN"
+	}
+}

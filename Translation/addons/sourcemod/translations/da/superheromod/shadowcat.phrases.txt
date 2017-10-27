@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"Already In Noclip"
+	{
+		"#format"		"{1:s},{2:s}"
+		"da"	"{1} {2} Du kan allerede gå igennem vægge!"
+	}
+	
+	"Noclip"
+	{
+		"#format"		"{1:d},{2:s}"
+		"da"	"{1} second{2} tilbage af shadowcat's krafter\nSid ikke fast ellers dør du!"
+	}
+	
+}

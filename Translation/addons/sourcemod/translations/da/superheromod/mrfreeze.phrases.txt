@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"Ground Already Frozen"
+	{
+		"#format"		"{1:s},{2:s}"
+		"da"			"{1} {2} Jorden er allerede tilfrosset!"
+	}
+}

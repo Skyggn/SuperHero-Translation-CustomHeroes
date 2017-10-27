@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"Equip Knife"
+	{
+		"da"	"ANVEND KNIVEN FOR AT BRUGE ØJEBLIKKELIG TRANSMISSION"
+	}
+	
+	"No Players"
+	{
+		"#format"	"{1:s}"
+		"da"		"{1} Kunne ikke finde fornemme nogle super helte!"
+	}
+	
+	"No Valid Players"
+	{
+		"#format"	"{1:s}"
+		"da"	"{1} Din fjende er trængt op i en krog!"
+	}
+}

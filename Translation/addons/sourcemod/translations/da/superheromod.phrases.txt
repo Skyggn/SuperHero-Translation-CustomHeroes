@@ -1,0 +1,113 @@
+"Phrases"
+{
+	"Select Super Power"
+	{
+		"#format"		"{1:d},{2:d}"
+		"da"			"Vælg Super Krafter (You've Selected {1}/{2})"
+	}
+	
+	"Too Many Powers"
+	{
+		"#format"		"{1:s}"
+		"da"			"{1} Du kan ikke have flere krafter"
+	}
+	
+	"Too Many Bind Heroes"
+	{
+		"#format"		"{1:s},{2:d}"
+		"da"			"{1} Du kan ikke vælge mere end {2} helte som skal bindes"
+	}
+	
+	"Too Many High Level Heroes"
+	{
+		"#format"		"{1:s}"
+		"da"			"{1} Du kan ikke vælge flere heroes i samme level"
+	}
+	
+	"Experience Load Next Round"
+	{
+		"#format"		"{1:s}"
+		"da"			"{1} Dit XP vil blive indlæst i næste runde"
+	}
+	
+	"Not Allowed Drop"
+	{
+		"#format"		"{1:s}"
+		"da"			"{1} Du er ikke tilladt at fjerne helte imens du er i live"
+	}
+	
+	"Dropped Hero"
+	{
+		"#format"		"{1:s},{2:s}"
+		"da"			"{1} Fjernet Helte: {2}"
+	}
+	
+	"Could Not Find Power"
+	{
+		"#format"		"{1:s},{2:s}"
+		"da"			"{1} Kunne Ikke Finde Kraften Der Skulle Fjernes: {2}"
+	}
+	
+	"Usage"
+	{
+		"da"			"Anvendelse"
+	}
+	
+	"Set Level"
+	{
+		"#format"		"{1:s},{2:N},{3:d}"
+		"da"			"{1} Du har sat {2} level til {3}"
+	}
+	
+	"Set Experience"
+	{
+		"#format"		"{1:s},{2:N},{3:d}"
+		"da"			"{1} Du har sat {2} XP til {3}"
+	}
+	
+	"Max Level"
+	{
+		"#format"		"{1:s},{2:d}"
+		"da"			"{1} Max level er {2}"
+	}
+	
+	"My Heroes"
+	{
+		"da"			"Mine Helte"
+	}
+	
+	"Invalid Hero"
+	{
+		"#format"		"{1:s},{2:s}"
+		"da"			"{1} {2} er ikke en gyldig helt!"
+	}
+	
+	"Who Has"
+	{
+		"#format"		"{1:s}"
+		"da"			"Hvem har: {1}"
+	}
+	
+	"Level"
+	{
+		"da"			"Level"
+	}
+	
+	"Powers Cleared"
+	{
+		"#format"		"{1:s}"
+		"da"			"{1} Du har fjernet alle dine krafter!"
+	}
+	
+	"Hero Cooldown"
+	{
+		"#format"		"{1:s},{2:d}"
+		"da"			"{1} Nedkølingstid: {2}"
+	}
+	
+	"See Console"
+	{
+		"#format"		"{1:s}"
+		"da"			"{1} Se i konsollen for information!"
+	}
+}

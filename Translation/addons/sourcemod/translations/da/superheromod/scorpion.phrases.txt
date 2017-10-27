@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"No Hooks Left"
+	{
+		"da"	"Ingen kroge tilbage!"
+	}
+}
