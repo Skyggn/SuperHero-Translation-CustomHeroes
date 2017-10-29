@@ -48,7 +48,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "phoenix", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Phoenix", g_PhoenixLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Genfødsel", "Ligesom en føniks, vil du blive genoplivet fra din efterladte brændende aske");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Genfødsel", "Ligesom en føniks, vil du blive genoplivet\nfra dit brændende aske");
 }
 
 public void OnConfigsExecuted()

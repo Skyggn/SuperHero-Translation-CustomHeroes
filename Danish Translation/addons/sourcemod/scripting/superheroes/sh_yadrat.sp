@@ -48,7 +48,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "yadrat", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Yadrat", g_YadratLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Øjeblikkelig Transmission", "Tryk på +POWER tasten for at teleportere til dit nærmeste mål \n(Hvis han er over level 0)");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Øjeblikkelig Transmission", "Tryk på +POWER tasten for at teleportere til\ndit nærmeste mål\n(Hvis han er over level 0)");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 }
 

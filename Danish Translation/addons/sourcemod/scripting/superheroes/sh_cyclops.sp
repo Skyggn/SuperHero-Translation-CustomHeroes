@@ -55,7 +55,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "cyclops", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Cyclops", g_CyclopsLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Optisk Laser", "Tryk på +POWER tasten for at skyde med Cyclop's optiske laser");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Optisk Laser", "Tryk på +POWER tasten for at\nskyde med Cyclop's optiske laser");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 }
 

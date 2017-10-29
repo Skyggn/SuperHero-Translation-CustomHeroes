@@ -59,7 +59,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "spiderman", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Spiderman", g_SpidermanLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Sving i Reb", "Skyd med rebet for at svinge i det - Hop for at spole ind, Duck dig for at spole ud");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Sving i Reb", "Skyd med rebet for at svinge i det\nHop for at spole ind\nDuck dig for at spole ud");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 }
 

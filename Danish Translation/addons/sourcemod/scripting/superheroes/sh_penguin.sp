@@ -52,7 +52,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "penguin", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Penguin", g_PenguinLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Jagende Explosive-Pingviner", "Kast en pingvin med en fastmonteret granat, som jagter din fjende");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Jagende Explosive-Pingviner", "Kast en pingvin med en fastmonteret granat,\nsom jagter din fjende");
 }
 
 public void OnConfigsExecuted()

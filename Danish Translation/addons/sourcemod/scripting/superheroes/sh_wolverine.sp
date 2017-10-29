@@ -43,7 +43,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "wolverine", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Wolverine", g_WolverineLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Regenativ Helefaktor & Klør", "Regenativ Helefaktor, Ekstra skade med kniven og øget fart");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Regenativ Helefaktor & Klør", "Regenativ Helefaktor, Ekstra skade\nmed kniven og øget fart");
 	
 	int weapons[42];
 	weapons[0] = view_as<int>(CSGOWeaponID_KNIFE);

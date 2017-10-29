@@ -46,7 +46,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "daredevil", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Daredevil", g_DaredevilLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Ekkolokation", "Pulserende ringe viser hvor fjenderne er når de er tæt på");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Ekkolokation", "Pulserende ringe viser hvor\nfjenderne er når de er tæt på");
 	
 	CreateTimer(BEACON_SPEED, Timer_Radar,_, TIMER_REPEAT);
 }

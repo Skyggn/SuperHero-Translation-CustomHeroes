@@ -53,7 +53,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "mrfreeze", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Mr. Freeze", g_FreezeLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Frys Jorden", "Tryk +POWER tasten for at fryse jorden og få dine fjender til at glide rundt på is! Du bliver selv immun over for kraften");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Frys Jorden", "Tryk +POWER tasten for at fryse jorden\nog få dine fjender til at glide\nrundt på is! Du bliver selv\nimmun over for kraften");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 }
 

@@ -44,7 +44,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "xavier", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Xavier", g_XavierLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Hold Detektion", "Se hvilket hold en spiller hører til ved hjælp af en glødende sti");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Hold Detektion", "Se hvilket hold en spiller hører til\nved hjælp af en glødende sti");
 	
 	CreateTimer(TRAIL_REFRESH_RATE, Timer_Trail,_, TIMER_REPEAT);
 }

@@ -40,7 +40,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "superman", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Superman", g_SupermanLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "HP/Armor/Tyngdekraft", "Mere HP, Gratis armor, Reduceret tyngdekraft");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "HP/Armor/Tyngdekraft", "Mere HP, Gratis armor\nog Reduceret tyngdekraft");
 	SuperHero_SetHeroHealth(g_iHeroIndex, g_SupermanHealth.IntValue);
 	SuperHero_SetHeroArmor(g_iHeroIndex, g_SupermanArmor.IntValue);
 	SuperHero_SetHeroGravity(g_iHeroIndex, g_SupermanGravity.FloatValue);

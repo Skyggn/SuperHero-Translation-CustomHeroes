@@ -44,7 +44,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "hobgoblin", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Hobgoblin", g_HobgoblinLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Hobgoblin Granater", "Ekstra granat skade/Periodisk genopfyldning af granater");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Hobgoblin Granater", "Ekstra granat skade/Periodisk\ngenopfyldning af granater");
 	SuperHero_SetHeroDamageMultiplier(g_iHeroIndex, g_HobgoblinDamageMultiplier.FloatValue, view_as<int>(CSGOWeaponID_HEGRENADE));
 }
 

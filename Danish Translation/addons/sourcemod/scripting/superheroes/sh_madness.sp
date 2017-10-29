@@ -44,7 +44,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "madness", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Madness", g_MadnessLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "To Oversavet Jagtgevær", "To oversavet jagtgevær/Ekstra HP og Armor/Ekstra oversavet jagtgeværsskade");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "To Oversavet Jagtgevær", "To oversavet jagtgevær\nEkstra HP og Armor\nEkstra skade med jagtgevær");
 	SuperHero_SetHeroPrimaryWeapon(g_iHeroIndex, view_as<int>(CSGOWeaponID_SAWEDOFF));
 	SuperHero_SetHeroDamageMultiplier(g_iHeroIndex, g_MadnessDamageMultiplier.FloatValue, view_as<int>(CSGOWeaponID_SAWEDOFF));
 	SuperHero_SetHeroHealth(g_iHeroIndex, g_MadnessHealth.IntValue);

@@ -71,7 +71,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "ssjgohan", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Super Saiyan Gohan", g_SSJGohanLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Guidet Kamehameha", "Hold +POWER tasten inde for at oplade dine Kamehameha, stop for at fyre den af!");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Guidet Kamehameha", "Hold +POWER tasten inde for at oplade Kamehameha\nstop for at skyde den af!");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 	
 	g_hHudCharge = CreateHudSynchronizer();

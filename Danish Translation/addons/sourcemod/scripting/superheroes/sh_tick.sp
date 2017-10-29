@@ -37,7 +37,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "tick", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("The Tick", g_TickLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Ingen Faldskader","SPOOOOOON! Tag ingen skade uanset hvor højt du falder!");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Ingen Faldskader","SPOOOOOON! Tag ingen skade uanset\nhvor langt du falder!");
 	AddNormalSoundHook(FallCheck);
 }
 

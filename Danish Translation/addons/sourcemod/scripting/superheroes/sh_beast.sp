@@ -44,7 +44,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "beast", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Beast", g_BeastLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Hastighed/HP/Armor/Tyngdekraft", "Hurtigere end Flash, mere HP, mere Armor, Lavere tyngdekraft");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Hastighed/HP/Armor/Tyngdekraft", "Hurtigere end Flash, mere HP,\nmere Armor, Lavere tyngdekraft");
 	SuperHero_SetHeroHealth(g_iHeroIndex, g_BeastHealth.IntValue);
 	SuperHero_SetHeroArmor(g_iHeroIndex, g_BeastArmor.IntValue);
 	SuperHero_SetHeroGravity(g_iHeroIndex, g_BeastGravity.FloatValue);

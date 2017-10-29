@@ -54,7 +54,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "batgirl", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Batgirl", g_BatgirlLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Entrehage", "Du har nu Batgirl's entrehage. Tryk på +POWER tasten for at skyde med din entrehage");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Entrehage", "Du har nu Batgirl's entrehage. Tryk på +POWER\ntasten for at skyde med din entrehage");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 }
 

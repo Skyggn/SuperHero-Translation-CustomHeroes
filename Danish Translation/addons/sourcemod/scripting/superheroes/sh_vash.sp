@@ -40,7 +40,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "vash", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Vash The Stampede", g_VashLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Revolver & Undvigelse", "Deagle skader mere, undvig tilfældig skade");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Revolver & Undvigelse", "Deagle skader mere og undvig randomiseret skade");
 	SuperHero_SetHeroSecondaryWeapon(g_iHeroIndex, view_as<int>(CSGOWeaponID_DEAGLE));
 	SuperHero_SetHeroDamageMultiplier(g_iHeroIndex, g_VashDamageMultiplier.FloatValue, view_as<int>(CSGOWeaponID_DEAGLE));
 }

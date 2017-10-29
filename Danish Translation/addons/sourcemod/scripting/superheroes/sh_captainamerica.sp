@@ -45,7 +45,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "captainamerica", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Captain America", g_CaptainamericaLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Super Skjold", "Randomiseret udødelighed, jo højere level, jo højere chance");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Super Skjold", "Periodisk udødelighed,\njo højere level, jo højere chance");
 	
 	CreateTimer(1.0, Timer_Invincibility,_, TIMER_REPEAT);
 }

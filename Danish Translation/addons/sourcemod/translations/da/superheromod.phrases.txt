@@ -56,13 +56,13 @@
 	"Set Level"
 	{
 		"#format"		"{1:s},{2:N},{3:d}"
-		"da"			"{1} Du har sat {2} level til {3}"
+		"da"			"{1} Du har sat {2}'s level til {3}"
 	}
 	
 	"Set Experience"
 	{
 		"#format"		"{1:s},{2:N},{3:d}"
-		"da"			"{1} Du har sat {2} XP til {3}"
+		"da"			"{1} Du har sat {2}'s XP til {3}"
 	}
 	
 	"Max Level"

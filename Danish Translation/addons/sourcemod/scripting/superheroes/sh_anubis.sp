@@ -40,7 +40,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "anubis", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Anubis", g_AnubisLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Sort Instinkt", "Se udført skade og skade du har taget");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Mørkt Instinkt", "Se skade du har gjort og taget");
 	
 	g_hSyncMyDamage = CreateHudSynchronizer();
 	g_hSyncEnemyDamage = CreateHudSynchronizer();

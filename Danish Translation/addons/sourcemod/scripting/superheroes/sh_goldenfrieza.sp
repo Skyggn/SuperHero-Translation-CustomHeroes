@@ -63,7 +63,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "goldenfrieza", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Golden Frieza", g_GoldenfriezaLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Kajseren's Dødsstråle", "Tryk på +POWER tasten for at skyde med mange små dødelige lasere");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Kajseren's Dødsstråle", "Tryk på +POWER tasten for at\naffyre Kajseren's Dødsstråle");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 	SuperHero_SetHeroHealth(g_iHeroIndex, g_GoldenfriezaHealth.IntValue);
 	SuperHero_SetHeroArmor(g_iHeroIndex, g_GoldenfriezaArmor.IntValue);

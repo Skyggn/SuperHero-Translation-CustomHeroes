@@ -46,7 +46,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "morph", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Morph", g_MorphLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Skift udseende til en kasse", "Tryk på +POWER tasten for at lave dig selv om til en kasse!");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Skift udseende til en kasse", "Tryk på +POWER tasten for at\nlave dig selv om til en kasse!");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 	
 	g_HudSync = CreateHudSynchronizer();

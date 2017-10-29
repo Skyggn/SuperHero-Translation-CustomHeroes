@@ -36,7 +36,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "flash", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Flash", g_FlashLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Utrolig Fart", "Du løber meget hurtigere");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Umenneskelig Fart", "Du løber meget hurtigere");
 	SuperHero_SetHeroSpeed(g_iHeroIndex, g_FlashSpeed.FloatValue);
 }
 

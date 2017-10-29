@@ -42,7 +42,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "dracula", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Dracula", g_DraculaLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Vampiriske Krafter", "Stjæl HP ved at skyde spillere - Jo højere level, desto mere HP");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Vampiriske Krafter", "Stjæl HP ved at skyde spillere\nJo højere level, desto mere HP");
 }
 
 public void OnConfigsExecuted()

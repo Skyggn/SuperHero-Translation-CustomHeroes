@@ -50,7 +50,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "invisiblewoman", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Invisible Woman", g_InvisiblewomanLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Usynlighed", "Tryk på +POWER tasten for at blive usynlig i en kort periode");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Usynlighed", "Tryk på +POWER tasten for at\nblive usynlig i en kort periode");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 	
 	g_HudSync = CreateHudSynchronizer();

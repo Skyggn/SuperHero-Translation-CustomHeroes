@@ -39,7 +39,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "blackpanther", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Black Panther", g_BlackpantherLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Dæmpet Støvler", "Dine støvler har anti-vibrations såle der absorberer lyde");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Dæmpet Støvler", "Dine støvler har anti-vibrations såle\nder absorberer lyde");
 	
 	g_Footsteps = FindConVar("sv_footsteps");
 	AddNormalSoundHook(FootstepCheck);

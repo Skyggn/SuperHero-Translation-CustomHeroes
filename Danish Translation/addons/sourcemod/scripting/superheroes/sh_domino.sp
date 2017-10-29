@@ -39,7 +39,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "domino", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Domino", g_DominoLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Udlign Oddsene", "Giv mere skade til folk i højere level, jo højere differens, jo højere skade");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Udlign Oddsene", "Giv mere skade til folk i højere level,\njo højere differens, jo mere skade");
 }
 
 public void OnConfigsExecuted()

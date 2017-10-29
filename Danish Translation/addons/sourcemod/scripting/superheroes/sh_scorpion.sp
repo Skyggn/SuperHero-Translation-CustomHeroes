@@ -65,7 +65,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "scorpion", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Scorpion", g_ScorpionLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Get Over Here!", "Tryk på +POWER tasten for at skyde en harpun afsted og hive dine fjender ind mod dig");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Get Over Here!", "Tryk på +POWER tasten for at skyde\nen harpun afsted og hive dine fjender ind mod dig");
 	SuperHero_SetHeroBind(g_iHeroIndex);
 }
 

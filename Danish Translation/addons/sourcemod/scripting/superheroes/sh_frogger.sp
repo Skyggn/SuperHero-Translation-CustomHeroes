@@ -42,7 +42,7 @@ public void OnPluginStart()
 	AutoExecConfig(true, "frogger", "sourcemod/superheromod");
 	
 	g_iHeroIndex = SuperHero_CreateHero("Frogger", g_FroggerLevel.IntValue);
-	SuperHero_SetHeroInfo(g_iHeroIndex, "Længdespringer", "Mens du løber fremad, hold duck nede for at hoppe længere");
+	SuperHero_SetHeroInfo(g_iHeroIndex, "Længdespringer", "Mens du løber fremad,\nhold duck nede for at hoppe længere");
 }
 
 public void OnConfigsExecuted()
